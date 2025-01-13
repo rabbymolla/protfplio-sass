@@ -1,14 +1,13 @@
 "use client";
 import React from "react";
-import { DM_Sans, Open_Sans } from "next/font/google";
-import { motion } from "framer-motion";
-import { CiCalendarDate } from "react-icons/ci";
 import Slider from "react-slick";
 import { Col, Container, Row } from "react-bootstrap";
 import RequardOne from "@/SVG/requardOne";
 import RequardTwo from "@/SVG/requardTwo";
 import RequardThree from "@/SVG/RequardThree";
 import RequardFour from "@/SVG/RequardFour";
+import { DM_Sans, Open_Sans } from "next/font/google";
+
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

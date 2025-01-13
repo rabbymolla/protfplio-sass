@@ -1,12 +1,11 @@
 "use client";
-import React, { lazy } from "react";
-import { DM_Sans, Open_Sans } from "next/font/google";
-import { motion } from "framer-motion";
+import React from "react";
 import Blog_one from "../../images/blog-1.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import { CiCalendarDate } from "react-icons/ci";
 import Slider from "react-slick";
+import { DM_Sans, Open_Sans } from "next/font/google";
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

@@ -5,10 +5,10 @@ import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { DM_Sans } from "next/font/google";
 import { motion } from "framer-motion";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
+import { DM_Sans } from "next/font/google";
 
 const DmSans = DM_Sans({
   subsets: ["latin"],

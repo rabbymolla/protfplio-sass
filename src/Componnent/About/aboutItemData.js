@@ -1,6 +1,6 @@
 import React from "react";
-import { DM_Sans, Open_Sans } from "next/font/google";
 import { motion } from "framer-motion";
+import { DM_Sans, Open_Sans } from "next/font/google";
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

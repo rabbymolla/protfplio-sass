@@ -1,10 +1,10 @@
 "use client";
 import about from "@/Data/About";
-import { DM_Sans, Open_Sans } from "next/font/google";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import AboutItemData from "./aboutItemData";
+import { DM_Sans, Open_Sans } from "next/font/google";
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

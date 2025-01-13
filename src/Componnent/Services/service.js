@@ -2,8 +2,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
-import { DM_Sans, Open_Sans } from "next/font/google";
 import ServiceOne from "@/SVG/ServiceOne";
+import { DM_Sans, Open_Sans } from "next/font/google";
+
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

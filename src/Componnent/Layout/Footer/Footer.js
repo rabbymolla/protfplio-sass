@@ -7,10 +7,10 @@ import Logo from "@/SVG/Logo";
 import Pintarest from "@/SVG/Pintarest";
 import Twetter from "@/SVG/Tewtter";
 import { motion } from "framer-motion";
-import { DM_Sans, Open_Sans } from "next/font/google";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaRocket } from "react-icons/fa";
+import { DM_Sans, Open_Sans } from "next/font/google";
 
 const DmSans = DM_Sans({
   subsets: ["latin"],

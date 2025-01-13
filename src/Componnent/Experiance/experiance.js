@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { DM_Sans, Open_Sans, Grechen_Fuemen } from "next/font/google";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useScroll } from "framer-motion";
 import ExperienceImg from "../../images/experience.jpg";
@@ -10,6 +9,7 @@ import { BiCheck } from "react-icons/bi";
 import CountUp from "react-countup";
 import { useState } from "react";
 import ScrollTrigger from "react-scroll-trigger";
+import { DM_Sans, Grechen_Fuemen, Open_Sans } from "next/font/google";
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",

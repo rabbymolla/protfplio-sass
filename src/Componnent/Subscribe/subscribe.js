@@ -1,9 +1,9 @@
 "use client";
+import { DM_Sans, Open_Sans } from "next/font/google";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { motion } from "framer-motion";
-import { DM_Sans, Open_Sans } from "next/font/google";
 import { FaArrowRight } from "react-icons/fa";
+
 const DmSans = DM_Sans({
   subsets: ["latin"],
   weight: "500",
