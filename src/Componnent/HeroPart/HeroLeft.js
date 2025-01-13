@@ -1,11 +1,11 @@
 import React from "react";
-import { DM_Sans, Open_Sans } from "next/font/google";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BsArrowUpRight } from "react-icons/bs";
 import B from "@/SVG/B";
 import Dribbble from "@/SVG/Dribbble";
 import InstagramTwo from "@/SVG/InstagramTwo";
+import { DM_Sans, Open_Sans } from "next/font/google";
 
 const DmSans = DM_Sans({
   subsets: ["latin"],
