@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
-import ServiceOne from "@/SVG/ServiceOne";
+import ServiceOne from "../../../src/SVG/ServiceOne";
 import { DM_Sans, Open_Sans } from "next/font/google";
 
 const DmSans = DM_Sans({
